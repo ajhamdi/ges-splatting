@@ -1,7 +1,7 @@
 # GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering
 [arXiv](https://arxiv.org/abs/0000.00000) | [webpage](https://abdullahamdi.com/ges/)
 
-<img src="assets/teaser.png" width="400" />
+<img src="assets/teaser.png" width="400" /> <img src="assets/gef_eq.png" width="400" />
 
 [Abdullah Hamdi](https://abdullahamdi.com/) <sup>1</sup>, [Luke Melas-Kyriazi](https://lukemelas.github.io/) <sup>1</sup>, [Guocheng Qian](https://guochengqian.github.io/) <sup>2,4</sup>, [Jinjie Mai](https://cemse.kaust.edu.sa/people/person/jinjie-mai) <sup>2</sup>, [Ruoshi Liu](https://ruoshiliu.github.io/) <sup>3</sup>, [Carl Vondrick](https://www.cs.columbia.edu/~vondrick/) <sup>3</sup>, [Bernard Ghanem](https://www.bernardghanem.com/) <sup>2</sup>, [Andrea Vedaldi](https://www.robots.ox.ac.uk/~vedaldi/) <sup>1</sup>
 
@@ -13,7 +13,8 @@
 
 ## Overview
 
-We provide a PyTorch implementation of our Generalized Exponential Splatting (GES) method, as well as the Gaussian Splatting method for comparison. We also provide the code to reproduce the results in our paper. The code is heavily based on [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/). 
+We provide a PyTorch implementation of our Generalized Exponential Splatting (GES) method, as well as the Gaussian Splatting method for comparison. We also provide the code to reproduce the results in our paper. The code is heavily based on [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/). The `.ply` files output of the GES  are __exactly__ the same type as the Gaussian Splatting `.ply` files. You can use the __same rendering code and utilities__ to visualize the results or edit them. 
+
 
 ### Hardware Requirements
 
@@ -60,7 +61,10 @@ To reproduce all the results in our paper, prepare your datasets according to th
 bash ges_full_eval.sh # for our GES implementation
 ```
 
+
+
 ## Numerical Simulation for Generlized Exponential Function (GEF)
+
 Check the notebook `simulation.ipynb` for the numerical simulation of the Generalized Exponential Function (GEF), that GES is based upon.
 
 ## Cite
