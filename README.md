@@ -6,31 +6,19 @@
 [Abdullah Hamdi](https://abdullahamdi.com/) <sup>1</sup>, [Luke Melas-Kyriazi](https://lukemelas.github.io/) <sup>1</sup>, [Guocheng Qian](https://guochengqian.github.io/) <sup>2,4</sup>, [Jinjie Mai](https://cemse.kaust.edu.sa/people/person/jinjie-mai) <sup>2</sup>, [Ruoshi Liu](https://ruoshiliu.github.io/) <sup>3</sup>, [Carl Vondrick](https://www.cs.columbia.edu/~vondrick/) <sup>3</sup>, [Bernard Ghanem](https://www.bernardghanem.com/) <sup>2</sup>, [Andrea Vedaldi](https://www.robots.ox.ac.uk/~vedaldi/) <sup>1</sup>
 
 <sup>1</sup> [Visual Geometry Group, University of Oxford](http://www.robots.ox.ac.uk/~vgg/)
-<sup>2</sup> [King Abdullah University of Science and Technology (KAUST)](https://www.kaust.edu.sa/),
+<sup>2</sup> [KAUST](https://www.kaust.edu.sa/),
 <sup>3</sup> [Columbia University](https://www.columbia.edu/),
 <sup>4</sup> [Snap Inc.](https://www.snap.com/),
 
 
-
-The code is heavily based on [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/), thanks for the amazing authors.
-
 ## Overview
 
-The codebase has 2 main components:
-- A PyTorch-based optimizer to produce a 3D Gaussian model from SfM inputs
-- A script to help you turn your own images into optimization-ready SfM data sets
-
-The components have different requirements w.r.t. both hardware and software. They have been tested on Windows 10 and Ubuntu Linux 22.04. Instructions for setting up and running each of them are found in the sections below.
-
-## Optimizer
-
-The optimizer uses PyTorch and CUDA extensions in a Python environment to produce trained models. 
+We provide a PyTorch implementation of our Generalized Exponential Splatting (GES) method, as well as the Gaussian Splatting method for comparison. We also provide the code to reproduce the results in our paper. The code is heavily based on [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/). 
 
 ### Hardware Requirements
 
 - CUDA-ready GPU with Compute Capability 7.0+
 - 24 GB VRAM (to train to paper evaluation quality)
-- Please see FAQ for smaller VRAM configurations
 
 ### Software Requirements
 - Conda (recommended for easy setup)
@@ -39,8 +27,6 @@ The optimizer uses PyTorch and CUDA extensions in a Python environment to produc
 - C++ Compiler and CUDA SDK must be compatible
 
 ### Setup
-
-#### Local Setup
 
 Our default, provided install method is based on Conda package and environment management:
 ```shell
@@ -51,8 +37,8 @@ conda activate ges
 Please note that this process assumes that you have CUDA SDK **11** installed, not **12**. For modifications, see below.
 
 
-### Running
-
+## Running
+Download the datasets from the [original repository](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/), and place them in the `tandt_db` and `nerf_360` directories.
 
 
 For example, let's assume you download `tandt_db` dataset, please run following to reproduce Gaussian splatting results.
@@ -71,6 +57,15 @@ python train_ges.py -s ./tandt_db/tandt/train -m ./outputs/train --eval
 To reproduce all the results in our paper, prepare your datasets according to the script, and then run it:
 
 ```
-bash example_full_eval.sh # for gaussian raw
 bash ges_full_eval.sh # for our GES implementation
+```
+
+## Numerical Simulation for Generlized Exponential Function (GEF)
+Check the notebook `simulation.ipynb` for the numerical simulation of the Generalized Exponential Function (GEF), that GES is based upon.
+
+## Cite
+If you find our work useful in your research, please consider citing:
+
+```bibtex
+
 ```

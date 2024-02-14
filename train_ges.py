@@ -251,7 +251,7 @@ if __name__ == "__main__":
     setup["exp_id"] = exp_id
     if args.wandb:
         wandb_id = args.model_path.replace('outputs', '').lstrip('./').replace('/', '---')
-        wandb.init(project="laplace", id=wandb_id, config = setup ,sync_tensorboard=False,settings=wandb.Settings(_service_wait=600))
+        wandb.init(project="ges", id=wandb_id, config = setup ,sync_tensorboard=False,settings=wandb.Settings(_service_wait=600))
 
     # Start GUI server, configure and run training
     network_gui.init(args.ip, args.port)
