@@ -1,7 +1,7 @@
 # GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering
 [arXiv](https://arxiv.org/abs/0000.00000) | [webpage](https://abdullahamdi.com/ges/)
 
-<img src="assets/teaser.png" width="400" /> <img src="assets/gef_eq.png" width="400" />
+<img src="assets/teaser.png" width="400" /> <img src="assets/gef_eq.png" width="380" />
 
 [Abdullah Hamdi](https://abdullahamdi.com/) <sup>1</sup>, [Luke Melas-Kyriazi](https://lukemelas.github.io/) <sup>1</sup>, [Guocheng Qian](https://guochengqian.github.io/) <sup>2,4</sup>, [Jinjie Mai](https://cemse.kaust.edu.sa/people/person/jinjie-mai) <sup>2</sup>, [Ruoshi Liu](https://ruoshiliu.github.io/) <sup>3</sup>, [Carl Vondrick](https://www.cs.columbia.edu/~vondrick/) <sup>3</sup>, [Bernard Ghanem](https://www.bernardghanem.com/) <sup>2</sup>, [Andrea Vedaldi](https://www.robots.ox.ac.uk/~vedaldi/) <sup>1</sup>
 
