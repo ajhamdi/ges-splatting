@@ -65,7 +65,7 @@ bash ges_full_eval.sh # for our GES implementation
 
 ## Numerical Simulation for Generlized Exponential Function (GEF)
 
-Check the notebook `simulation.ipynb` for the numerical simulation of the Generalized Exponential Function (GEF), that GES is based upon.
+Check the notebook `simulation.ipynb` [here](https://github.com/ajhamdi/ges-splatting/blob/main/simulation.ipynb) for the numerical simulation of the Generalized Exponential Function (GEF), that GES is based on, as well as additional visualizations from the paper.
 
 ## Cite
 If you find our work useful in your research, please consider citing:
