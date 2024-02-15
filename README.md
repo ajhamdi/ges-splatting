@@ -71,5 +71,10 @@ Check the notebook `simulation.ipynb` [here](https://github.com/ajhamdi/ges-spla
 If you find our work useful in your research, please consider citing:
 
 ```bibtex
-
+@article{hamdi2024ges,
+author = {Hamdi, Abdullah and Melas-Kyriazi, Luke and Qian, Guocheng and Mai, Jinjie and Liu, Ruoshi and Vondrick, Carl and Ghanem, Bernard and Vedaldi, Andrea},
+title  = {GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering},
+journal = {arXiv},
+year   = {2024}
+}
 ```
