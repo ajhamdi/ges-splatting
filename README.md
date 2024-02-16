@@ -1,5 +1,5 @@
 # GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering
-[arXiv](https://arxiv.org/abs/0000.00000) | [webpage](https://abdullahamdi.com/ges/)
+[arXiv](https://arxiv.org/abs/2402.10128) | [webpage](https://abdullahamdi.com/ges/)
 
 <img src="assets/teaser.png" width="430" /> <img src="assets/gef_eq.png" width="360" />
 
