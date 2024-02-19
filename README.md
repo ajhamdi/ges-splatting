@@ -15,6 +15,9 @@
 
 We provide a PyTorch implementation of our Generalized Exponential Splatting (GES) method, as well as the Gaussian Splatting method for comparison. We also provide the code to reproduce the results in our paper. The code is heavily based on [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/). The `.ply` files output of the GES  are __exactly__ the same type as the Gaussian Splatting `.ply` files. You can use the __same rendering code and utilities__ to visualize the results or edit them. 
 
+## Colab Notebook
+A great way to get started with GES is to use the online [notebook](https://github.com/camenduru/ges-splatting-jupyter) produced by [camenduru](https://github.com/camenduru) with no requirments.
+
 
 ### Hardware Requirements
 
@@ -35,19 +38,19 @@ SET DISTUTILS_USE_SDK=1 # Windows only
 conda env create --file environment.yml
 conda activate ges
 ```
-Please note that this process assumes that you have CUDA SDK **11** installed, not **12**. For modifications, see below.
+Please note that this process assumes that you have CUDA SDK **11** installed, not **12**. For modifications, see below. You can also use the same conda environment of the [Gaussian Splatting repo](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/).
 
 
 ## Running
 Download the datasets from the [original repository](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/), and place them in the `tandt_db` and `nerf_360` directories.
 
 
-For example, let's assume you download `tandt_db` dataset, please run following to reproduce Gaussian splatting results.
+For example, let's assume you download `tandt_db` dataset, please run following to reproduce Gaussian splatting results, but under the setup of GES.
 ```
 python train_gaussian.py -s ./tandt_db/tandt/train -m ./outputs/train --eval 
 ```
 
-And run following to reproduce our GES results:
+And run following to reproduce our main GES results with default settings.
 
 ```
 python train_ges.py -s ./tandt_db/tandt/train -m ./outputs/train --eval 
