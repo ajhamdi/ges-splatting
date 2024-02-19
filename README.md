@@ -13,7 +13,7 @@
 
 ## Overview
 
-We provide a PyTorch implementation of our Generalized Exponential Splatting (GES) method, as well as the Gaussian Splatting method for comparison. We also provide the code to reproduce the results in our paper. The code is heavily based on [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/). The `.ply` files output of the GES  are __exactly__ the same type as the Gaussian Splatting `.ply` files. You can use the __same rendering code and utilities__ to visualize the results or edit them. 
+We provide a PyTorch implementation of our Generalized Exponential Splatting (GES) method, as well as the Gaussian Splatting method for comparison. We also provide the code to reproduce the results in our paper. The code is heavily based on [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/). The `.ply` files output of the GES  are __exactly__ the same type as the Gaussian Splatting `.ply` files. You can use the __same rendering code and utilities__ to visualize the results or edit them. The extra parameter [`shape`](https://github.com/ajhamdi/ges-splatting/blob/f66ba3457f0bc15231e2009e219d34894130abac/scene/laplacian_model.py#L160) is fused with the other gaussian parameters before saving the `.ply` file.    
 
 ### Colab Notebook
 A great way to get started with GES is to use the online [notebook](https://github.com/camenduru/ges-splatting-jupyter) produced by [camenduru](https://github.com/camenduru) with no requirments.
