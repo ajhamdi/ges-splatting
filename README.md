@@ -1,5 +1,5 @@
 # GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering
-[arXiv](https://arxiv.org/abs/2402.10128) | [webpage](https://abdullahamdi.com/ges/)
+[webpage](https://abdullahamdi.com/ges/) | [arXiv](https://arxiv.org/abs/2402.10128) | [Video](https://youtu.be/edSvNy3roV8) 
 
 <img src="assets/teaser.png" width="430" /> <img src="assets/gef_eq.png" width="360" />
 
@@ -75,9 +75,9 @@ If you find our work useful in your research, please consider citing:
 
 ```bibtex
 @article{hamdi2024ges,
-author = {Hamdi, Abdullah and Melas-Kyriazi, Luke and Qian, Guocheng and Mai, Jinjie and Liu, Ruoshi and Vondrick, Carl and Ghanem, Bernard and Vedaldi, Andrea},
-title  = {GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering},
-journal = {arXiv},
-year   = {2024}
+  title={GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering},
+  author={Hamdi, Abdullah and Melas-Kyriazi, Luke and Qian, Guocheng and Mai, Jinjie and Liu, Ruoshi and Vondrick, Carl and Ghanem, Bernard and Vedaldi, Andrea},
+  journal={arXiv preprint arXiv:2402.10128},
+  year={2024}
 }
 ```
