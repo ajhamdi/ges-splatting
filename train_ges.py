@@ -8,7 +8,7 @@
 #
 # For inquiries contact  george.drettakis@inria.fr
 #
-
+from __future__ import annotations
 import datetime
 import os
 import torch
