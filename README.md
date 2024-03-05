@@ -1,4 +1,4 @@
-# GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering
+# GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering [CVPR 2024]
 [webpage](https://abdullahamdi.com/ges/) | [arXiv](https://arxiv.org/abs/2402.10128) | [Video](https://youtu.be/edSvNy3roV8) 
 
 <img src="assets/teaser.png" width="430" /> <img src="assets/gef_eq.png" width="360" />
