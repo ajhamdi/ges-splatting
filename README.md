@@ -64,6 +64,7 @@ To reproduce all the results in our paper, prepare your datasets according to th
 bash ges_full_eval.sh # for our GES implementation
 ```
 
+The detailed numerical results can be found in 
 
 
 ## Numerical Simulation for Generlized Exponential Function (GEF)
