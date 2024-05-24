@@ -1,4 +1,4 @@
-# GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering
+# GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering [CVPR 2024]
 [webpage](https://abdullahamdi.com/ges/) | [arXiv](https://arxiv.org/abs/2402.10128) | [Video](https://youtu.be/edSvNy3roV8) 
 
 <img src="assets/teaser.png" width="430" /> <img src="assets/gef_eq.png" width="360" />
@@ -74,10 +74,10 @@ Check the notebook `simulation.ipynb` [here](https://github.com/ajhamdi/ges-spla
 If you find our work useful in your research, please consider citing:
 
 ```bibtex
-@article{hamdi2024ges,
-  title={GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering},
-  author={Hamdi, Abdullah and Melas-Kyriazi, Luke and Qian, Guocheng and Mai, Jinjie and Liu, Ruoshi and Vondrick, Carl and Ghanem, Bernard and Vedaldi, Andrea},
-  journal={arXiv preprint arXiv:2402.10128},
-  year={2024}
+@InProceedings{hamdi_2024_CVPR,
+    author    = {Hamdi, Abdullah and Melas-Kyriazi, Luke and Mai, Jinjie and Qian, Guocheng and Liu, Ruoshi and Vondrick, Carl and Ghanem, Bernard and Vedaldi, Andrea},
+    title     = {GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year      = {2024},
 }
 ```
