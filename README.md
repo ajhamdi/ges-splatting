@@ -64,7 +64,7 @@ To reproduce all the results in our paper, prepare your datasets according to th
 bash ges_full_eval.sh # for our GES implementation
 ```
 
-The detailed numerical results can be found in 
+The detailed numerical results of GES (per scene) can be found in [here](https://github.com/ajhamdi/ges-splatting/blob/main/assets/GES_results_data.xlsx)
 
 
 ## Numerical Simulation for Generlized Exponential Function (GEF)
