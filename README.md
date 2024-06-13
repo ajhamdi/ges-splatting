@@ -75,10 +75,13 @@ Check the notebook `simulation.ipynb` [here](https://github.com/ajhamdi/ges-spla
 If you find our work useful in your research, please consider citing:
 
 ```bibtex
-@InProceedings{hamdi_2024_CVPR,
+@InProceedings{Hamdi_2024_CVPR,
     author    = {Hamdi, Abdullah and Melas-Kyriazi, Luke and Mai, Jinjie and Qian, Guocheng and Liu, Ruoshi and Vondrick, Carl and Ghanem, Bernard and Vedaldi, Andrea},
-    title     = {GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering},
+    title     = {GES : Generalized Exponential Splatting for Efficient Radiance Field Rendering},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
     year      = {2024},
+    pages     = {19812-19822}
+}
 }
 ```
